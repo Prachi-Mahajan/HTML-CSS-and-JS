@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  background-color: #fffdd0;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-family: Comic Sans MS, sans-serif;
+  text-align: center;
+}
+
+p{
+	clear: both;
+	width:84%;
+	margin-right: auto;
+	margin-left:auto;
+	font-family: Comic Sans MS, sans-serif;
+	color: black;
+	text-align: left;
+}
+
+.row {
+  width: 100%;
+}
+/********** Desktop only **********/
+@media (min-width: 992px) {
+  .container{
+	width:30%;
+	margin:1.66%;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+	.container{
+	width:40%;
+	margin:1.665%;
+	}
+	#p3{
+		width: 83%;
+		margin: 1.66%;
+	}
+}
+
+@media(max-width: 767px){
+	.container{
+	width:90%;
+	margin:5%;
+	}
+}
+
+.heading1{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right:0px;
+	padding: 8px 0px 8px 0px;
+	width: 30%;
+	border: 2px solid black;
+	border-top: none;
+	border-right: none;
+	background-color: pink;
+	text-align: center;
+	font-weight: bolder;
+	font-family: Comic Sans MS, sans-serif;
+}
+
+.heading2{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right:0px;
+	padding: 8px 0px 8px 0px;
+	width: 30%;
+	border: 2px solid black;
+	border-top: none;
+	border-right: none;
+	background-color: red;
+	text-align: center;
+	font-weight: bolder;
+	font-family: Comic Sans MS, sans-serif;
+}
+
+.heading3{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right:0px;
+	padding: 8px 0px 8px 0px;
+	width: 30%;
+	border: 2px solid black;
+	border-top: none;
+	border-right: none;
+	text-align: center;
+	font-weight: bolder;
+	background-color: lightyellow;
+	font-family: Comic Sans MS, sans-serif;
+}
+
+.container{
+	border: 2px solid black;
+	float: left;
+	background-color: gray;
+}
+
+.madeby{
+	text-align: center;
+	font-family: Comic Sans MS, sans-serif;
+}
+hr{
+	color: black;
+	width: 100%
+}
